@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- encoding -->
+		<meta charset="UTF-8" />
+		<!-- Mobile support -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title and SEO -->
+		<title>Николай Столяр</title>
+		<meta name="description" content="Сайт-портфолио веб-разработчика Николая Столяра" />
+		<meta name="keywords" content="вестка, веб-разработчик, верстальщик, html, css, js, freelance, фриланс" />
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<!-- Open Graph -->
+		<meta property="og:url" content="https://cs96912.tmweb.ru/Portfolio/index.html/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Сайт-портфолио веб-разработчика Николая Столяра" />
+		<meta property="og:description" content="Портфолио и контакты" />
+		<!-- <meta property="og:image" content="./img/opengraph.jpg"/> -->
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#1a60cf">
+		<link rel="shortcut icon" href="./img/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- Fonts -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<!-- HEADER TOP -->
+		<div class="header__top">
+			<div class="container">
+				<div class="header__top-content">
+					<nav class="nav">
+						<a href="#skills">Навыки</a>
+						<a href="#portfolio">Портфолио</a>
+						<a href="#howiwork">Как я работаю</a>
+						<a href="#contacts">Контакты</a>
+					</nav>
+					<div class="header__top-socials">
+						<a href="#" target="_blank"><img src="./img/socials/linkedin.svg" alt="LinkedIn"></a>
+						<a href="#" target="_blank"><img src="./img/socials/github.svg" alt="Github"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- HEADER TOP TABLET/MOBILE -->
+		<div class="header-tm">
+			<div class="container">
+				<div class="header-tm__content">
+					<div class="header-tm__content-title">
+						<h3 class="title-3">HTML Верстальщик</h3>
+					</div>
+					<div class="burger-wrapper">
+						<button class="burger">
+							<span class="burger-line"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MOBILE NAV -->
+		<div class="mobile-nav">
+			<div class="container">
+				<nav class="mobile-nav__list">
+					<a class="remove-mobnav" href="#skills">Навыки</a>
+					<a class="remove-mobnav" href="#portfolio">Портфолио</a>
+					<a class="remove-mobnav" href="#howiwork">Как я работаю</a>
+					<a class="remove-mobnav" href="#contacts">Контакты</a>
+				</nav>
+				<div class="mobile-nav__social-block">
+					<div class="mobile-nav__social-block-list">
+						<a href="https://t.me/Ktulich" target="_blank"><img src="./img/socials/telegram.svg" alt="Telegram"></a>
+						<a href="https://vk.com/ktulich" target="_blank"><img src="./img/socials/vk.svg" alt="Vk"></a>
+						<a href="https://www.instagram.com/ktulich_jaeger" target="_blank"><img src="./img/socials/instagram.svg" alt="Instagram"></a>
+					</div>
+					<a class="email-link" href="mailto:ktulich@cs96912.tmweb.ru">ktulich@cs96912.tmweb.ru</a>
+				</div>
+			</div>
+		</div>
+		<div id="overlay"></div>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="container">
+				<div class="header__main">
+					<div class="header__main-content">
+						<div class="header__main-title gradient-line">
+							<h1 class="title-1">Николай Столяр</h1>
+						</div>
+						<div class="header__content-img-mobile">
+							<img src="./img/header/header_notebook.jpg" alt="Notebook">
+						</div>
+						<p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и выполнением ТЗ.</p>
+						<div class="header__buttons">
+							<a class="button" href="#acquaintance">Познакомиться</a>
+							<a class="button button--transparent" href="#contacts">Контакты</a>
+						</div>
+					</div>
+						<div class="header__content-img">
+							<img src="./img/header/header_notebook.jpg" alt="Notebook">
+						</div>
+				</div>
+			</div>
+			<div class="header__bc-img">
+				<img src="./img/header/header_background.jpg" alt="workplace">
+			</div>
+			<div class="header__bot" id="acquaintance">
+				<div class="container">	
+					<div class="header__bot-skills" id="skills">
+						<div class="header__bot-title">
+							<h3 class="title-3">Что я умею:</h3>
+						</div>
+						<ul class="header__skills-list">
+							<li class="header__skills-item">pixel perfect, полное соответствие макету</li>
+							<li class="header__skills-item">верстаю с сеткой или без</li>
+							<li class="header__skills-item">адаптивная верстка под мобильные устройства</li>
+							<li class="header__skills-item">оптимизация по retina экраны</li>
+							<li class="header__skills-item">с Bootstrap и без него</li>
+						</ul>
+					</div>
+					<div class="header__bot-contacts">
+						<div class="header__bot-title">
+							<h3 class="title-3">На связи:</h3>
+						</div>
+						<div class="social-block">
+							<a href="https://t.me/Ktulich" target="_blank"><img src="./img/socials/telegram.svg" alt="Telegram"></a>
+							<a href="https://vk.com/ktulich" target="_blank"><img src="./img/socials/vk.svg" alt="Vk"></a>
+							<a href="https://www.instagram.com/ktulich_jaeger" target="_blank"><img src="./img/socials/instagram.svg" alt="Instagram"></a>
+						</div>
+						<a class="email-link" href="mailto:ktulich@cs96912.tmweb.ru">ktulich@cs96912.tmweb.ru</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- PORTFOLIO -->
+		<section class="section__portfolio" id="portfolio">
+			<div class="container">
+				<div class="mix-block">
+					<div class="section__portfolio-title gradient-line">
+						<h2 class="title-2">Портфолио</h2>
+					</div>
+					<div class="mix-block__btn">
+						<button type="button" data-filter="all"> Все работы </button>
+						<button type="button" data-filter=".html"> HTML верстка </button>
+						<button type="button" data-filter=".wp"> WordPress </button>
+					</div>
+					<div class="section__cards-row" id="mix-cards"> 
+						<!-- PORTFOLIO CARD start-->
+						<a class="card mix html" href="https://cs96912.tmweb.ru/Forest%20Travel/index.html" target='blank'>
+							<div class="card__img">
+								<img src="./img/portfolio/ForestTravel_preview.jpg" alt="Forest Travel preview">
+								<span class="card-enter-button">Смотреть проект</span>
+							</div>
+							<div class="card__content">
+								<h4 class="title-4">Верстка "Форест тревел"</h4>
+								<p class="card__text">Верстка многостраничного сайта</p>
+							</div>
+						</a>
+						<!-- PORTFOLIO CARD end-->
+						<!-- PORTFOLIO CARD start-->
+						<a class="card mix html" href="https://cs96912.tmweb.ru/Unit/index.html" target='blank'>
+							<div class="card__img">
+								<img src="./img/portfolio/UnitReal_preview.jpg" alt="Unit preview">
+								<span class="card-enter-button">Смотреть проект</span>
+							</div>
+							<div class="card__content">
+								<h4 class="title-4">Сайт приложения “Юнит”</h4>
+								<p class="card__text">Верстка лендинга</p>
+							</div>
+						</a>
+						<!-- PORTFOLIO CARD end-->
+						<!-- PORTFOLIO CARD start-->
+						<a class="card mix wp card--small-card" href="#" target='blank'>
+							<div class="card__img card__img--small-card">
+								<img src="./img/portfolio/World_auto_1.jpg" alt="World Auto 1 preview">
+								<span class="card-enter-button">Смотреть проект</span>
+							</div>
+							<div class="card__content">
+								<h4 class="title-4 title-4--small-card">Верстка “Мир Авто”</h4>
+								<p class="card__text card__text--small-card">Верстка многостраничного сайта </p>
+							</div>
+						</a>
+						<!-- PORTFOLIO CARD end-->
+						<!-- PORTFOLIO CARD start-->
+						<a class="card mix wp card--small-card" href="#" target='blank'>
+							<div class="card__img card__img--small-card">
+								<img src="./img/portfolio/World_auto_2.jpg" alt="World Auto 2 preview">
+								<span class="card-enter-button">Смотреть проект</span>
+							</div>
+							<div class="card__content">
+								<h4 class="title-4 title-4--small-card">Верстка “Мир Авто”</h4>
+								<p class="card__text card__text--small-card">Верстка многостраничного сайта </p>
+							</div>
+						</a>
+						<!-- PORTFOLIO CARD end-->
+						<!-- PORTFOLIO CARD start-->
+						<a class="card mix wp card--small-card" href="#" target='blank'>
+							<div class="card__img card__img--small-card">
+								<img src="./img/portfolio/World_auto_3.jpg" alt="World Auto 3 preview">
+								<span class="card-enter-button">Смотреть проект</span>
+							</div>
+							<div class="card__content">
+								<h4 class="title-4 title-4--small-card">Верстка “Мир Авто”</h4>
+								<p class="card__text card__text--small-card">Верстка многостраничного сайта </p>
+							</div>
+						</a>
+						<!-- PORTFOLIO CARD end-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- TIMELINE -->
+		<section class="section__timeline" id="howiwork">
+			<div class="container">
+				<div class="timeline-title gradient-line">
+					<h2 class="title-2">Как я работаю</h2>
+				</div>
+				<div class="timeline">
+					<!-- Timeline item 1-->
+					<div class="timeline-item">
+						<div class="timeline-item-icon">
+							<p></p>
+						</div>
+						<div class="timeline-item__content">
+							<div class="timeline-item__title gradient-line">
+								<h4 class="title-4">Оцениваю макет</h4>
+							</div>
+							<div class="timeline-item__text">
+								<p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
+							</div>
+							<div class="timeline-item__time">
+								<span>Время: 2 часа</span>
+							</div>
+						</div>
+					</div>
+					<!-- Timeline item 2-->
+					<div class="timeline-item">
+						<div class="timeline-item-icon">
+							<p></p>
+						</div>
+						<div class="timeline-item__content">
+							<div class="timeline-item__title gradient-line">
+								<h4 class="title-4">ТЗ, смета и график работ</h4>
+							</div>
+							<div class="timeline-item__text">
+								<p>Согласовываем техническое задание и график работ по проекту. Осмечиваю стоимость по этапам работы.</p>
+							</div>
+							<div class="timeline-item__time">
+								<span>Время: 2 - 4 часа</span>
+							</div>
+						</div>
+					</div>
+					<!-- Timeline item 3-->
+					<div class="timeline-item">
+						<div class="timeline-item-icon">
+							<p></p>
+						</div>
+						<div class="timeline-item__content">
+							<div class="timeline-item__title gradient-line">
+								<h4 class="title-4">Вы держите руку на пульсе</h4>
+							</div>
+							<div class="timeline-item__text">
+								<p>Выдаю клиенту доступ к GitHub репозиторию и доске Trello. Вы в любое время можете видеть актуальное состояние проекта и
+								задач.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Timeline item 4-->
+					<div class="timeline-item">
+						<div class="timeline-item-icon">
+							<p></p>
+						</div>
+						<div class="timeline-item__content">
+							<div class="timeline-item__title gradient-line">
+								<h4 class="title-4">Выполняю каждый этап</h4>
+							</div>
+							<div class="timeline-item__text">
+								<p>Поочередно выполняю каждый этап работы. Передаю результаты. Заказчик производит поэтапную оплату.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Timeline item 5-->
+					<div class="timeline-item">
+						<div class="timeline-item-icon">
+							<p></p>
+						</div>
+						<div class="timeline-item__content">
+							<div class="timeline-item__title gradient-line">
+								<h4 class="title-4">Финальное ревью проекта</h4>
+							</div>
+							<div class="timeline-item__text">
+								<p>Проект готов. Финальное ревью и полировка до идеального состояния. Передаю файлы проекта, заливаю сайт на хостинг заказчика.</p>
+							</div>
+							<div class="timeline-item__time">
+								<span>Время: 2 - 4 часа</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- CONTACTS -->
+		<section class="section__contacts" id="contacts">
+			<div class="container">
+				<div class="contacts-title gradient-line">
+					<h2 class="title-2">Контакты</h2>
+				</div>
+				<div class="contacts-wrapper">
+					<div class="contacts-bc-img">
+						<img src="./img/contacts/contacts-icon.svg" alt="Запятые">
+					</div>
+					<div class="contacts-row">
+						<div class="contacts-text">
+							<p>Если вы ищите специалиста по верстке сайтов или frontend разработчика в команду для работы над проектом — напишите мне.</p>
+						</div>
+						<div class="contacts-links">
+							<ul class="contacts-links__list">
+								<li class="contacts-links__item">
+									<p>Email</p><a href="mailto:ktulich@cs96912.tmweb.ru">ktulich@cs96912.tmweb.ru</a>
+								</li>
+								<li class="contacts-links__item">
+									<p>Телефон</p><a href="tel:+79505042770">+7 (950) 504-27-70</a>
+								</li>
+							</ul>	
+						</div>
+						<div class="social-block">
+							<a href="https://t.me/Ktulich" target="_blank"><img src="./img/socials/telegram.svg" alt="Telegram"></a>
+							<a href="https://vk.com/ktulich" target="_blank"><img src="./img/socials/vk.svg" alt="Vk"></a>
+							<a href="https://www.instagram.com/ktulich_jaeger" target="_blank"><img src="./img/socials/instagram.svg" alt="Instagram"></a>
+						</div>
+					</div>
+					<form class="form">
+						<div class="form-item form-item__email">
+							<span class="fake-placeholder">Ваш Email</span>
+							<input type="email" name="email" class="form-item__content" required>
+						</div>
+						<div class="form-item form-item__text">
+							<span class="fake-placeholder">Сообщение</span>
+							<textarea name="message" class="form-item__content"></textarea>
+						</div>
+						<div class="submit-button">
+							<input type="submit" value="Отправить" class="submit-input">		
+						</div>
+					</form>
+					<div id="answer"></div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-copyright">
+					<p>&#169; 2021 — Николай Столяр</p>
+				</div>
+				<div class="footer-text">
+					<p>Веб-разработчик из Ханты-Мансийска, занимаюсь версткой и созданием сайтов.</p>
+					<p>Этот сайт сделал в рамках прохождения обучения по
+					верстке на курсах от <a href="https://webcademy.ru">WebCademy.ru</a></p>
+				</div>
+			</div>
+		</footer>
+		
+		<div class="backtop-arrow">
+			<p class="backtop-arrow__text visually-hidden-text">В начало страницы</p>
+			<a href="#top">
+				<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas"
+				data-icon="arrow-alt-circle-up" class="svg-inline--fa fa-arrow-alt-circle-up fa-w-16" role="img"
+				viewBox="0 0 512 512">
+				<path fill="currentColor"
+					d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm292 116V256h70.9c10.7 0 16.1-13 8.5-20.5L264.5 121.2c-4.7-4.7-12.2-4.7-16.9 0l-115 114.3c-7.6 7.6-2.2 20.5 8.5 20.5H212v116c0 6.6 5.4 12 12 12h64c6.6 0 12-5.4 12-12z" />
+				</svg>
+			</a>
+		</div>
+
+		<script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+		<script src="./libs/mixitup/mixitup.min.js"></script>
+		<script src="./libs/jquery.validate/jquery.validate.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
