@@ -7,7 +7,7 @@ $c = true;
 
 // Save Basic Form parametrs
 $project_name = "Рабочий сайт";
-$admin_email  = "ktulich@cs96912.tmweb.ru";
+$admin_email  = "wehrvolfoff@mail.ru";
 $email_from  = "cs96912.tmweb.ru";
 // $form_subject = trim($_POST["form_subject"]);
 
