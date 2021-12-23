@@ -130,14 +130,11 @@ img {
     bottom: 60px;
 
     display: flex;
-    justify-content: end;
     align-items: center;
     
     transition: .3s;
 
     &:hover {
-        width: 100%;
-
         transition: .3s;
     }
 }
